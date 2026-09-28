@@ -1,0 +1,6 @@
+{
+  "name": "FoodieHub - Online Food Ordering & Delivery",
+  "description": "Order delicious food from top restaurants near you. Fast doorstep delivery, live order tracking, and exclusive discounts with FoodieHub.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
