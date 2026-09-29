@@ -18,6 +18,7 @@ import { OrderTrackingView } from './components/OrderTrackingView';
 import { UserProfileView } from './components/UserProfileView';
 import { OffersView } from './components/OffersView';
 import { Footer } from './components/Footer';
+import { FoodieChatWidget } from './components/FoodieChatWidget';
 
 const AppContent: React.FC = () => {
   const { currentView } = useFoodieHub();
@@ -66,6 +67,9 @@ const AppContent: React.FC = () => {
 
       {/* Universal Slide-over Cart Drawer */}
       <CartDrawer />
+
+      {/* AI Assistant Live Chat Widget */}
+      <FoodieChatWidget />
 
       {/* Universal Footer */}
       <Footer />
